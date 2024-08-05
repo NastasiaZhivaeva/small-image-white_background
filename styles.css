@@ -100,10 +100,14 @@ body {
 .message-container__image img {
   width: 327px;
   height: 112.25px;
-
-  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+ 
 
 }
+
 
 img {
   margin: 0;
