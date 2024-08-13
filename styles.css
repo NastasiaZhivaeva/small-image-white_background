@@ -79,6 +79,11 @@ body {
   top: 24px;
   z-index: 99;
 }
+.message-container__button-close img:hover,
+.message-container__button-close img:active {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
 
 .message-container__headline-container {
   display: flex;
@@ -104,7 +109,6 @@ body {
   border-top-right-radius: 12px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
- 
 
 }
 
@@ -521,7 +525,13 @@ img {
   padding-left: 8px;
 }
 
-
+.slick-prev:hover,
+.slick-prev:active,
+.slick-next:hover,
+.slick-next:active {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
 
 
 
